@@ -18,3 +18,9 @@ function getComputerChoice(){
     return 'scissors'
   }
 }
+
+
+// Create a variable numberOfTheRound
+let numberOfTheRound;
+// set the value of numberOfTheRound as 0
+numberOfTheRound = 0;

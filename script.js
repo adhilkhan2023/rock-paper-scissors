@@ -62,3 +62,6 @@ function playRound(playerSelection,computerSelection){
     return `Round ${numberOfTheRound}: Tie! ${playerSelection} and ${computerSelection}`
   }
 }
+
+// Create a variable resultOfTheRound
+let resultOfTheRound;

@@ -94,3 +94,20 @@ function giveScore(){
     computerScore++
   }
 }
+
+
+// Create a function showWinner
+function showWinner(){
+  // If playerScore is greater than computerScore
+  if(playerScore > computerScore){
+  // then show 'You Win the game!! Congrats'
+    console.log('You Win the game!! Congrats');
+  // Else if computerScore is greater than playerScore
+  }else if(computerScore > playerScore){
+  // then show 'You Lose the game!! Better luck next time'
+    console.log('You Lose the game!! Better luck next time');
+  // Else show 'The game is Draw!!'
+  }else{
+    console.log('The game is Draw!!');
+  }
+}

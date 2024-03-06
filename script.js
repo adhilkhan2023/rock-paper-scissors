@@ -111,3 +111,50 @@ function showWinner(){
     console.log('The game is Draw!!');
   }
 }
+
+// Create a function playGame
+function playGame(){
+  // Run the first round and
+  // Store its result in resultOfTheRound variable
+  resultOfTheRound = playRound();
+  // Run the function showResult()
+  showResult();
+  // Run the function giveScore()
+  giveScore();
+
+  // Run the second round and
+  // Store its result in resultOfTheRound variable
+  resultOfTheRound = playRound();
+  // Run the function showResult()
+  showResult();
+  // Run the function giveScore()
+  giveScore();
+
+  // Run the third round and
+  // Store its result in resultOfTheRound variable
+  resultOfTheRound = playRound();
+  // Run the function showResult()
+  showResult()
+  // Run the function giveScore()
+  giveScore();
+
+  // Run the fourth round and
+  // Store its result in resultOfTheRound variable
+  resultOfTheRound = playRound();
+  // Run the function showResult()
+  showResult()
+  // Run the function giveScore()
+  giveScore();
+
+  // Run the fifth round and
+  // Store its result in resultOfTheRound variable
+  resultOfTheRound = playRound();
+  // Run the function showResult()
+  showResult()
+  // Run the function giveScore()
+  giveScore()
+  // Run the function showWinner()
+  showWinner();
+}
+
+playGame();

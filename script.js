@@ -80,3 +80,17 @@ function showResult(){
   // Show the result of the round
   console.log(resultOfTheRound);
 }
+
+
+// Create a function giveScore
+function giveScore(){
+  // If the letter at 13th index of resultOfTheRound = 'W'
+  if(resultOfTheRound.charAt(13) === 'W'){
+  // then increment playerScore
+    playerScore++
+  // Else if the letter at 13th index of resultOfTheRound = 'L'
+  }else if(resultOfTheRound.charAt(13) === 'L'){
+  // then increment computerScore
+    computerScore++
+  }
+}

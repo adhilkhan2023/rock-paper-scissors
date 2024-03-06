@@ -73,3 +73,10 @@ let playerScore = 0;
 // Create a variable computerScore and
 // set its value as 0
 let computerScore = 0;
+
+
+// Create a function showResult
+function showResult(){
+  // Show the result of the round
+  console.log(resultOfTheRound);
+}

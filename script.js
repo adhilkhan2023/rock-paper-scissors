@@ -64,28 +64,3 @@ function showWinner(){
     console.log('The game is Draw!!');
   }
 }
-
-function playGame(){
-  resultOfTheRound = playRound();
-  showResult();
-  giveScore();
-
-  resultOfTheRound = playRound();
-  showResult();
-  giveScore();
-
-  resultOfTheRound = playRound();
-  showResult()
-  giveScore();
-
-  resultOfTheRound = playRound();
-  showResult()
-  giveScore();
-
-  resultOfTheRound = playRound();
-  showResult()
-  giveScore()
-  showWinner();
-}
-
-playGame();

@@ -79,3 +79,16 @@ function disableButtons(){
   paperButton.disabled = true;
   scissorsButton.disabled = true;
 }
+
+function runTheGame(event){
+  playerSelection = event.target.textContent;
+
+  resultOfTheRound.textContent = playRound(playerSelection);
+  document.body.appendChild(resultOfTheRound);
+
+  giveScore();
+
+  showScore();
+
+  showWinner();
+}

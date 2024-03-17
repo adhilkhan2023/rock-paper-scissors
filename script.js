@@ -63,3 +63,5 @@ let resultOfTheRound = document.createElement('p');
 let playerScoreBoard = document.createElement('p');
 
 let computerScoreBoard = document.createElement('p');
+
+let playerSelection;

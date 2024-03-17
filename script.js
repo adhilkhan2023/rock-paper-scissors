@@ -35,9 +35,9 @@ let playerScore = 0;
 let computerScore = 0;
 
 function giveScore(){
-  if(resultOfTheRound.charAt(13) === 'W'){
+  if(resultOfTheRound.textContent.charAt(4) === 'W'){
     playerScore++
-  }else if(resultOfTheRound.charAt(13) === 'L'){
+  }else if(resultOfTheRound.textContent.charAt(4) === 'L'){
     computerScore++
   }
 }

@@ -43,10 +43,6 @@ let playerScore = 0;
 
 let computerScore = 0;
 
-function showResult(){
-  console.log(resultOfTheRound);
-}
-
 function giveScore(){
   if(resultOfTheRound.charAt(13) === 'W'){
     playerScore++

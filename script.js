@@ -30,8 +30,6 @@ function playRound(playerSelection,computerSelection){
   }
 }
 
-let resultOfTheRound;
-
 let playerScore = 0;
 
 let computerScore = 0;
@@ -59,3 +57,9 @@ const rockButton = document.querySelector('.rock-button');
 const paperButton = document.querySelector('.paper-button');
 
 const scissorsButton = document.querySelector('.scissors-button');
+
+let resultOfTheRound = document.createElement('p');
+
+let playerScoreBoard = document.createElement('p');
+
+let computerScoreBoard = document.createElement('p');

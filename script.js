@@ -13,8 +13,6 @@ function getComputerChoice(){
 }
 
 function playRound(playerSelection,computerSelection){
-  playerSelection = prompt('Rock, Paper Or Scissors?').toLowerCase();
-
   computerSelection = getComputerChoice();
 
   if(playerSelection === 'rock' && computerSelection === 'paper' ||

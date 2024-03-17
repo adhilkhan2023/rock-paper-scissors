@@ -98,3 +98,7 @@ function runTheGame(event){
 
   showWinner();
 }
+
+rockButton.addEventListener('click',runTheGame);
+paperButton.addEventListener('click',runTheGame);
+scissorsButton.addEventListener('click',runTheGame);

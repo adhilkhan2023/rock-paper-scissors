@@ -53,3 +53,9 @@ function showWinner(){
     console.log('The game is Draw!!');
   }
 }
+
+const rockButton = document.querySelector('.rock-button');
+
+const paperButton = document.querySelector('.paper-button');
+
+const scissorsButton = document.querySelector('.scissors-button');

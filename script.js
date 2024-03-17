@@ -65,3 +65,11 @@ let playerScoreBoard = document.createElement('p');
 let computerScoreBoard = document.createElement('p');
 
 let playerSelection;
+
+function showScore(){
+  playerScoreBoard.textContent = `Player Score: ${playerScore}`;
+  document.body.appendChild(playerScoreBoard);
+
+  computerScoreBoard.textContent = `Computer Score: ${computerScore}`;
+  document.body.appendChild(computerScoreBoard);
+}

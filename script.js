@@ -73,3 +73,9 @@ function showScore(){
   computerScoreBoard.textContent = `Computer Score: ${computerScore}`;
   document.body.appendChild(computerScoreBoard);
 }
+
+function disableButtons(){
+  rockButton.disabled = true;
+  paperButton.disabled = true;
+  scissorsButton.disabled = true;
+}

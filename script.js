@@ -43,12 +43,18 @@ function giveScore(){
 }
 
 function showWinner(){
-  if(playerScore > computerScore){
-    console.log('You Win the game!! Congrats');
-  }else if(computerScore > playerScore){
-    console.log('You Lose the game!! Better luck next time');
-  }else{
-    console.log('The game is Draw!!');
+  if(playerScore === 5){
+    let resultOfTheGame = document.createElement('p');
+    resultOfTheGame.textContent = 'You Win the game! Refresh to play again.'
+    document.body.appendChild(resultOfTheGame);
+
+    disableButtons();
+  }else if(computerScore === 5){
+    let resultOfTheGame = document.createElement('p');
+    resultOfTheGame.textContent = 'I Win the game! Refresh to play again.'
+    document.body.appendChild(resultOfTheGame);
+
+    disableButtons();
   }
 }
 

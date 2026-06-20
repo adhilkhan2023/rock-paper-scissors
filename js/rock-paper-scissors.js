@@ -22,3 +22,15 @@ function getComputerChoice(){
     return "scissors";
   }
 }
+
+
+// Create a function named getHumanChoice.
+function getHumanChoice(){
+  // Declare a variable named humanChoice.
+  // Ask the user "Rock", "Paper" or "Scissors" and then show a input box.
+  // When the user enters a word,
+  // Store that word in the variable humanChoice.
+  let humanChoice = prompt("Rock, Paper or Scissors?");
+  // Return the value inside humanChoice.
+  return humanChoice;
+}

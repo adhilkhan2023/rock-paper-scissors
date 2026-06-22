@@ -34,3 +34,11 @@ function getHumanChoice(){
   // Return the value inside humanChoice.
   return humanChoice;
 }
+
+
+// Create a variable named humanScore.
+// Give the variable humanScore the value 0.
+let humanScore = 0;
+// Create a variable named computerScore.
+// Give the variable computerScore the value 0.
+let computerScore = 0;

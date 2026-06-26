@@ -61,7 +61,8 @@ function playRound(humanChoice, computerChoice){
     //Increment the value of the variable humanScore by 1.
     humanScore++;
     //Then print "You win! ${humanChoice} beats ${computerChoice}".
-    console.log(`You win! ${humanChoice} beats ${computerChoice}`);
+    console.log(`You win the round! ${humanChoice} beats ${computerChoice}
+Human Score:${humanScore}   Computer Score:${computerScore}`);
   //Else if the value of the variable humanChoice is scissor and the value of the variable computerChoice is rock   
   //Or the value of the variable humanChoice is rock and the value of the variable computerChoice is paper
   //Or the value of the variable humanChoice is paper and the value of the variable computerChoice is scissor
@@ -72,10 +73,12 @@ function playRound(humanChoice, computerChoice){
     //Increment the value of the variable computerScore by 1.
     computerScore++;
     //Then print "You lose! ${computerChoice} beats ${humanChoice}".
-    console.log(`You lose! ${computerChoice} beats ${humanChoice}`);
+    console.log(`You lose the round! ${computerChoice} beats ${humanChoice}
+Human Score:${humanScore}   Computer Score:${computerScore}`);
     //Else then print "Tie! ${humanChoice} and ${computerChoice}".
   }else{
-    console.log(`Tie! ${humanChoice} and ${computerChoice}`);
+    console.log(`Tie! ${humanChoice} and ${computerChoice}
+Human Score:${humanScore}   Computer Score:${computerScore}`);
   }
 }
  

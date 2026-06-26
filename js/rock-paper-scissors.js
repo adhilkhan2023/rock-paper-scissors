@@ -19,8 +19,7 @@ function getHumanChoice(){
 let humanScore = 0;
 let computerScore = 0;
 
-function playRound(humanChoice, computerChoice){
-  humanChoice = humanChoice.toLowerCase();
+function playRound(){
 
   if(humanChoice === "rock" && computerChoice === "scissors"
     || humanChoice === "paper" && computerChoice === "rock"
@@ -42,7 +41,4 @@ Human Score:${humanScore}   Computer Score:${computerScore}`);
   }
 }
 
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
-
-playRound(humanSelection, computerSelection);
+playRound();

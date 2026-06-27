@@ -44,3 +44,7 @@ Human Score:${humanScore}   Computer Score:${computerScore}`);
 }
 
 playRound();
+
+function playGame(){
+  
+}

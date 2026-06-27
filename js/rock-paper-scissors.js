@@ -43,4 +43,10 @@ Human Score:${humanScore}   Computer Score:${computerScore}`);
 Human Score:${humanScore}   Computer Score:${computerScore}`);
     }
   }
+
+  playRound();
+  playRound();
+  playRound();
+  playRound();
+  playRound();
 }

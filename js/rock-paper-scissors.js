@@ -20,6 +20,8 @@ let humanScore = 0;
 let computerScore = 0;
 
 function playRound(){
+  const humanChoice = getHumanChoice().toLowerCase();
+  const computerChoice = getComputerChoice();
 
   if(humanChoice === "rock" && computerChoice === "scissors"
     || humanChoice === "paper" && computerChoice === "rock"

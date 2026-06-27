@@ -49,4 +49,15 @@ Human Score:${humanScore}   Computer Score:${computerScore}`);
   playRound();
   playRound();
   playRound();
+
+  if(humanScore > computerScore){
+    console.log(`You win the game!
+Human Score:${humanScore}   Computer Score:${computerScore}`);
+  }else if(humanScore < computerScore){
+    console.log(`You lose the game!
+Human Score:${humanScore}   Computer Score:${computerScore}`);
+  }else{
+    console.log(`The game is Tie!
+Human Score:${humanScore}   Computer Score:${computerScore}`);
+  }
 }

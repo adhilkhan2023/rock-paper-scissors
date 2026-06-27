@@ -16,9 +16,6 @@ function getHumanChoice(){
   return humanChoice;
 }
 
-let humanScore = 0;
-let computerScore = 0;
-
 function playRound(){
   const humanChoice = getHumanChoice().toLowerCase();
   const computerChoice = getComputerChoice();
@@ -46,5 +43,6 @@ Human Score:${humanScore}   Computer Score:${computerScore}`);
 playRound();
 
 function playGame(){
-  
+  let humanScore = 0;
+  let computerScore = 0;
 }

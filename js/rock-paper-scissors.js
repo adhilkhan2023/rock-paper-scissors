@@ -44,12 +44,6 @@ Human Score:${humanScore}   Computer Score:${computerScore}`);
     }
   }
 
-  playRound();
-  playRound();
-  playRound();
-  playRound();
-  playRound();
-
   if(humanScore > computerScore){
     console.log(`You win the game!
 Human Score:${humanScore}   Computer Score:${computerScore}`);

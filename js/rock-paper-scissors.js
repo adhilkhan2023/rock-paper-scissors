@@ -57,3 +57,5 @@ Human Score:${humanScore}   Computer Score:${computerScore}`);
 }
 
 playGame();
+
+const buttonsContainer = document.querySelector(".container");

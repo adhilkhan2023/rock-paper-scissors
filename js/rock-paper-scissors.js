@@ -61,3 +61,5 @@ Human Score:${humanScore}   Computer Score:${computerScore}`);
 Human Score:${humanScore}   Computer Score:${computerScore}`);
   }
 }
+
+playGame();

@@ -14,11 +14,6 @@ function getComputerChoice(){
 let humanScore = 0;
 let computerScore = 0;
 
-function playGame(){
-}
-
-playGame();
-
 function playRound(){
   const humanChoice = getHumanChoice().toLowerCase();
   const computerChoice = getComputerChoice();

@@ -11,10 +11,10 @@ function getComputerChoice(){
   }
 }
 
-function playGame(){
-  let humanScore = 0;
-  let computerScore = 0;
+let humanScore = 0;
+let computerScore = 0;
 
+function playGame(){
   function playRound(){
     const humanChoice = getHumanChoice().toLowerCase();
     const computerChoice = getComputerChoice();

@@ -37,17 +37,17 @@ Human Score:${humanScore}   Computer Score:${computerScore}`);
       console.log(`Tie! ${humanChoice} and ${computerChoice}
 Human Score:${humanScore}   Computer Score:${computerScore}`);
     }
-  }
 
-  if(humanScore > computerScore){
-    console.log(`You win the game!
+    if(humanScore > computerScore){
+      console.log(`You win the game!
 Human Score:${humanScore}   Computer Score:${computerScore}`);
-  }else if(humanScore < computerScore){
-    console.log(`You lose the game!
+    }else if(humanScore < computerScore){
+      console.log(`You lose the game!
 Human Score:${humanScore}   Computer Score:${computerScore}`);
-  }else{
-    console.log(`The game is Tie!
+    }else{
+      console.log(`The game is Tie!
 Human Score:${humanScore}   Computer Score:${computerScore}`);
+    }
   }
 }
 

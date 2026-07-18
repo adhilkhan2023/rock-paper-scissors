@@ -48,6 +48,4 @@ function playRound(event){
 
 const buttonsContainer = document.querySelector(".container");
 
-buttonsContainer.addEventListener("click", playRound);
-
 const buttons = document.querySelectorAll("button");

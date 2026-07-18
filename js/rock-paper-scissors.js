@@ -50,3 +50,5 @@ Human Score:${humanScore}   Computer Score:${computerScore}`);
 }
 
 const buttonsContainer = document.querySelector(".container");
+
+buttonsContainer.addEventListener("click", playRound);

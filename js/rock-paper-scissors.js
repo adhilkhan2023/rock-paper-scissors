@@ -14,8 +14,8 @@ function getComputerChoice(){
 let humanScore = 0;
 let computerScore = 0;
 
-function playRound(){
-  const humanChoice = getHumanChoice().toLowerCase();
+function playRound(event){
+  const humanChoice = event.target.textContent.toLowerCase();
   const computerChoice = getComputerChoice();
 
   if(humanChoice === "rock" && computerChoice === "scissors"

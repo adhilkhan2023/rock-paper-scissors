@@ -14,6 +14,8 @@ function getComputerChoice(){
 let humanScore = 0;
 let computerScore = 0;
 
+const display = document.querySelector(".display");
+
 function playRound(event){
   const humanChoice = event.target.textContent.toLowerCase();
   const computerChoice = getComputerChoice();

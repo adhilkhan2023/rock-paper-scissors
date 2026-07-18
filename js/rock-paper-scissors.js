@@ -15,6 +15,7 @@ let humanScore = 0;
 let computerScore = 0;
 
 const display = document.querySelector(".display");
+const scoreBoard = document.querySelector(".score-board");
 
 function playRound(event){
   const humanChoice = event.target.textContent.toLowerCase();

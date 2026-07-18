@@ -46,6 +46,4 @@ function playRound(event){
   }
 }
 
-const buttonsContainer = document.querySelector(".container");
-
 const buttons = document.querySelectorAll("button");

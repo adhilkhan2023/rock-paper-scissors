@@ -39,12 +39,10 @@ function playRound(event){
 
   scoreBoard.textContent = `Human Score:${humanScore}   Computer Score:${computerScore}`;
 
-  if(humanScore > computerScore){
+  if(humanScore === 5){
     display.textContent = `You win the game!`;
-  }else if(humanScore < computerScore){
+  }else if(computerScore === 5){
     display.textContent = `You lose the game!`;
-  }else{
-    display.textContent = `The game is Tie!`;
   }
 }
 
